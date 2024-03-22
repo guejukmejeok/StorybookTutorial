@@ -6,6 +6,7 @@ export default {
     title: "Task",
 };
 
+
 const Template = (args) => <Task {...args} />;
 
 export const Default = Template.bind({});
